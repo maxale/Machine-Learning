@@ -3,15 +3,14 @@
 ## Getting Started 
 
 * Python scripts:
-0. Interview Questions
-1. Python Cheat Sheets
-   1. ML Cheat Sheet
-   2. Math Cheat Sheet
-   3. Python Cheat Sheet
-2. Math Review Codes
-3. Perceptron
-4. Adaline
-5. MLP Sklearn
-6. Keras NN
- 
+
+This files contains Python codes and installation manuals.
+
+* R scripts:
+
+This files contains R codes and installation manuals.
+
+* Matlab scripts:
+
+This files contains Matlab codes and installation manuals.
 
