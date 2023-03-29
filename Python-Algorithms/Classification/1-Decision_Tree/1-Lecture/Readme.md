@@ -12,7 +12,7 @@ python -m pip install pydotplus
 
 * Graphviz (Windows Installation)
 
-First, you need to install the pydotplus package
+First, you need to install the `pydotplus` package
 
 ```
 pip install pydotplus
@@ -26,19 +26,14 @@ pip install pydot
 pip install graphviz
 ```
 
-Second you need to download the msi file and:
+Second you need to download the msi file:
 
-Install [graphvis](https://graphviz.gitlab.io/_pages/Download/Download_windows.html)
+Install [Graphviz](https://graphviz.org/download/)
 
-The add the following command in your python code.
+and then add the following command in your python code.
 
 ```
 import os     
-```
-
-then 
-
-```
 os.environ["PATH"] += os.pathsep + 'C:/Program Files (x86)/Graphviz2.38/bin/'
 ```
 
