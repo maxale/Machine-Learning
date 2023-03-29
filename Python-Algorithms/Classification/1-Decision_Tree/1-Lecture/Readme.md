@@ -2,17 +2,17 @@
 
 ## Guide
 
-* Graph viz (Ubuntu Installation)
+* Graphviz (Ubuntu Installation)
 
 You need to install the pydotplus package to be able to see the graph.
 
 ```
-sudo pip install pydotplus
+python -m pip install pydotplus
 ```
 
-* Graph viz (Windows Installation)
+* Graphviz (Windows Installation)
 
-Firs, you need to install the pydotplus package
+First, you need to install the pydotplus package
 
 ```
 pip install pydotplus
@@ -23,7 +23,7 @@ pip install pydot
 ```
 
 ```
-pip install graphvis
+pip install graphviz
 ```
 
 Second you need to download the msi file and:
