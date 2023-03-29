@@ -3,8 +3,8 @@ import pandas as pd
 from sklearn import tree
 
 #%%-----------------------------------------------------------------------
-import os
-os.environ["PATH"] += os.pathsep + 'C:/Program Files (x86)/Graphviz2.38/bin/'
+#import os
+#os.environ["PATH"] += os.pathsep + 'C:/Program Files (x86)/Graphviz2.38/bin/'
 #%%-----------------------------------------------------------------------
 
 # Libraries to display decision tree
@@ -38,6 +38,7 @@ customers.head()
 repeat_customers.head()
 customers.info()
 repeat_customers.info()
+
 #%%==================================================================================
 # Need to install graphviz and pydotplus
 # To install pydotplus use !pip install pydotplus in the console, let's you use the console vice a command window
@@ -57,5 +58,5 @@ l = customers.columns
 dot_data = export_graphviz(clf_1, filled=True, rounded=True, feature_names=list(l), out_file=None)
 
 graph = graph_from_dot_data(dot_data)
-graph.write_pdf("Tennis.pdf")
-webbrowser.open_new(r'Tennis.pdf')
+graph.write_pdf('customers.pdf')
+webbrowser.open_new(r'customers.pdf')
